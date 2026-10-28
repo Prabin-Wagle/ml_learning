@@ -1,0 +1,10 @@
+I got the idea of neural networks, weights , biases , activation etc.
+
+Neural Networks : Bunches of neutorns connected with other layers to produce the predictions.
+Also, each neutorns have their own weights which are the mathematical prameters and the actiavation neutrons of other layer are formed by the weights , prev neutrons and biases. Further more we have weight sum as  (a1w1+a2w2+---+anwn+b). Sigmod generally give us the value ranges from 0 to 1 . its mathematical representation is 1/(1+e^-x). 
+
+After that , i got to know abt the cost function where the cost function is generally the cost for the training and we calculate it with (observated weight of neutron-final)^2. Also we have the concept of gradient descent where we can have idea abt where the cost would be minimal if we could achieve the point where we would get the local min, global min then we could have less cost functions.
+
+Also , here the greater loss means far away from the target and smaller loss means closer to the target.
+
+Simply. neural network is the way of predciting the answers based on chnaging or tuning the mathematical parameters like weights and biases to the point where our final predictions would be closer enough.
